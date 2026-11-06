@@ -1,4 +1,4 @@
-# ¡Hola! Soy Víctor Auñón (Ángel) 👋
+# ¡Hola, soy Víctor Auñón (Ángel)! 👋
 
 <p align="left">
   <a href="https://www.linkedin.com/in/angelaunon/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -8,85 +8,54 @@
   <img src="https://img.shields.io/badge/Role-Senior%20Software%20Developer%20%40%20SNGULAR-blue?style=flat-square" alt="Role" />
 </p>
 
-> **De simular física de fluidos en mi doctorado a orquestar agentes autónomos, sensores en tiempo real y arquitecturas que no se caen a pedazos.**  
-> *"El código sin contrato es solo ruido."*
+Soy desarrollador fullstack en **SNGULAR** con background en **ingeniería mecánica (PhD)**. Vengo del mundo de la investigación y la simulación numérica, pero hace ya años que mi día a día está en el desarrollo de software.
+
+Me muevo sobre todo en tres terrenos:
+* 🔬 **I+D y desarrollo con IA:** No me gusta programar a ciegas ni dejar que los modelos inventen. Paso bastante tiempo investigando flujos de **Spec-Driven Development (SDD)** y barandillas mecánicas para que los agentes de IA trabajen con contratos claros, tipado estricto y verificación real en vez de alucinaciones.
+* 🛠️ **Cacharreo, hardware y maker:** Me gusta conectar cosas del mundo físico a la web. Si tiene Bluetooth, sensores o escupe datos en tiempo real, antes o después le acabo montando un puente, una API o un dashboard para verlo en pantalla.
+* ⚡ **Automatización & Homelab:** Si tengo que hacer algo a mano más de un par de veces, me falta tiempo para automatizarlo. Me monto y mantengo mis propios servicios: desde una estación de inferencia local con una GPU Intel Arc Pro para correr modelos en casa, hasta un VPS con Dokploy para orquestar agentes, enrutar LLMs con LiteLLM y desplegar mis proyectos sin depender de plataformas cerradas.
 
 ---
 
-### 🚀 ¿Quién soy en pocas palabras?
+### 🧪 Cosas en las que he estado trasteando
 
-Tengo un **Doctorado (PhD) en Ingeniería Mecánica** y trabajo como **Senior FullStack Developer en SNGULAR**. Esa combinación marca cómo pienso y cómo construyo: aplico el rigor analítico del método científico para resolver problemas de software, sin perder de vista lo divertido de cacharrear y ensuciarse las manos.
+Una selección de proyectos personales y experimentos de laboratorio:
 
-Mi brújula se resume en tres obsesiones:
-
-* 🛠️ **Maker de corazón:** Si tiene sensores, Bluetooth o emite telemetría, quiero conectarlo. No me quedo en el frontend o la API: voy desde el firmware/dispositivo físico hasta el pixel en pantalla.
-* 🔬 **Investigador incansable:** No me conformo con que "funcione a la primera". Me interesa el *por qué*, cómo aislar variables y cómo crear sistemas predecibles. Hoy investigo y desarrollo herramientas para **Spec-Driven Development (SDD)** y arquitecturas asistidas por IA con contratos mecánicos infranqueables.
-* ⚡ **Automatizador radical:** Si tengo que repetir un proceso manual dos veces, la tercera ya es un script, un workflow en n8n, una extensión de navegador o un arnés para terminal. Optimizar la fricción del día a día es mi deporte favorito (junto con sumar kilómetros de carrera).
-
----
-
-### 🧪 Proyectos Destacados
-
-Una muestra de lo que construyo cuando se juntan las ganas de investigar, automatizar y crear cosas tangibles:
-
-#### 🤖 1. IA Agéntica & Spec-Driven Development (SDD)
+#### 🤖 IA Agéntica & Spec-Driven Development
 * **[Speckit Vite+ Stitch Bundle](https://github.com/victor-aunon/speckit-viteplus-stitch-bundle)**  
-  *Flujo determinista de calidad frontend.*  
-  Integra herramientas en **Rust (Oxlint, Oxfmt)**, límites de complejidad ciclomática estricta, arquitectura limpia con fronteras de importación infranqueables y generación visual con **Google Stitch MCP**.
-
+  Un pipeline estricto de calidad para frontend que combina herramientas rápidas en Rust (Oxlint, Oxfmt), límites de complejidad, separación limpia entre capas y generación visual asistida con Google Stitch MCP.
 * **[Gemini SDD Harness](https://github.com/victor-aunon/gemini-cli-harness) & [OpenCode Harness](https://github.com/victor-aunon/opencode-harness)**  
-  *El escudo de calidad para el desarrollo guiado por IA.*  
-  *"Si dejas que una IA programe sin planos (Spec) y sin vallas de seguridad mecánicas, el resultado es una catedral de naipes."* Este arnés dota a los agentes de IA de contratos estrictos, memoria persistente, hooks y verificación mecánica para evitar alucinaciones, tipos rotos y código fantasma.
-
+  Arneses para trabajar con agentes de IA bajo especificaciones previas (*Spec-Driven Development*). Añaden contratos, memoria persistente y validaciones en local para obligar al modelo a seguir planos antes de tocar código.
 * **[CRIT Skill](https://github.com/victor-aunon/crit-skill)**  
-  *Habilidad agéntica para la técnica CRIT.*  
-  Estructura la interacción con LLMs en cuatro fases deterministas: **Context → Role → Interview → Task** para erradicar respuestas vagas y asegurar alineación previa.
+  Implementación del método CRIT (Contexto → Rol → Entrevista → Tarea) como habilidad agéntica, para que los modelos hagan preguntas clave y se alineen con el usuario antes de lanzarse a responder.
 
 ---
 
-#### ⚙️ 2. Monorepos, Sistemas & Automatización
+#### ⚙️ Homelab, Infraestructura & Automatización
+* **Estación de Inferencia Local & VPS (Dokploy + LiteLLM)**  
+  Mi laboratorio personal para correr y orquestar modelos de IA sin depender exclusivamente de APIs externas. En local tengo una estación de inferencia equipada con una GPU **Intel Arc Pro B70** para servir modelos abiertos. En la nube mantengo un VPS orquestado con **Dokploy** donde despliego mis proyectos y corre **LiteLLM** como pasarela inteligente (enruta a mis modelos locales y salta con fallbacks a **OpenRouter** si necesito modelos mayores), además de automatizaciones autónomas con **Hermes Agent** y un montón de servicios autoalojados.
 * **[Digital Life Manager (DLM)](https://github.com/victor-aunon/digital-life-manager)**  
-  *Monorepo para la ingestión de archivos, tanto de gran tamaño como documentos más personales*  
-  Une una aplicación web en **Next.js 16**, workers en segundo plano y streaming API en **Python**, base de datos vectorial (**PostgreSQL + pgvector**) y una **extensión personalizada Manifest V3** para sincronizar sesiones web automáticamente.
-
+  Monorepo en Turborepo para ingesta y gestión de archivos (desde ficheros grandes hasta documentos personales), con Next.js 16, worker en segundo plano en Python, base de datos vectorial (PostgreSQL + pgvector) y una extensión propia de Chrome en Manifest V3 para sincronizar sesiones.
 * **[Expenses Manager](https://github.com/victor-aunon/expenses-manager)**  
-  *Monorepo multiplataforma para gestión de finanzas.*  
-  **NestJS REST backend**, frontend web en **Next.js 15 (App Router)**, app móvil en **Expo / React Native con NativeWind** y pipeline de escaneo OCR de facturas y tickets.
-
+  Monorepo multiplataforma para finanzas personales: API en NestJS, frontend web en Next.js 15 y app móvil con Expo / React Native, con pipeline para escanear tickets y facturas vía OCR.
 * **[nvim.dots](https://github.com/victor-aunon/nvim.dots) & [n8n-docker-compose](https://github.com/victor-aunon/n8n-docker-compose)**  
-  *Mi cuartel general de productividad.*  
-  Configuración milimétrica de Neovim en **Lua**, multiplexores de terminal (**Zellij / Tmux**), shell **Fish** y automatizaciones self-hosted con **n8n en Docker**.
+  Mi entorno diario en terminal: Neovim ajustado al detalle en Lua, multiplexores (Zellij / Tmux), shell Fish y contenedores Docker con n8n para automatizar tareas rutinarias.
 
 ---
 
-#### 🏃 3. Pasiones y Laboratorio
+#### 🏃 Pasiones y Laboratorio
 * **[Running Activity Support System](https://github.com/victor-aunon/running-activity-companion)**  
-  *Sistema distribuido de soporte y telemetría en tiempo real para corredores de fondo.*  
-  Captura métricas a 1 Hz desde un **Garmin Fenix 7S vía BLE**, las procesa en una pasarela Android nativa (con inyección de música en vivo desde Spotify), las difunde mediante un servidor **WebSocket Relay** y las dibuja en un **Dashboard Bento Box interactivo en Next.js** para los espectadores en carrera.
-
+  Un invento que monté para mis entrenamientos y carreras de fondo: leo métricas a 1 Hz del Garmin Fenix 7S por BLE, las paso por una pasarela en Android (que además sincroniza música con Spotify), las emito por WebSockets y las pinto en directo en un dashboard web Bento Box en Next.js para que me sigan en carrera.
 * **[Oanda Trading Bot](https://github.com/victor-aunon/Oanda-trading-bot)**  
-  *Bot algorítmico para Forex y Crypto.*  
-  Diseñado en Python con **Backtrader**, ejecutando backtesting riguroso y operando en la plataforma Oanda con gestión de riesgo sistemática.
+  Bot en Python montado sobre Backtrader para probar estrategias cuantitativas de Forex y cripto contra la API de Oanda, con backtesting y control de riesgo automático.
 
 ---
 
-### 🧠 Mi Filosofía de Ingeniería
+### 💡 Cómo me gusta trabajar
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│ 1. CONCEPTOS > SINTAXIS                                                │
-│    El framework pasa, el diseño perdura. Comprender los fundamentos,  │
-│    patrones de arquitectura y boundaries vale más que 10 tutoriales.   │
-├────────────────────────────────────────────────────────────────────────┤
-│ 2. LA IA ES LA HERRAMIENTA, EL HUMANO ES EL ARQUITECTO                │
-│    La IA ejecuta con velocidad; nosotros dirigimos con contratos,      │
-│    especificaciones (SDD) y criterios de verificación no negociables.  │
-├────────────────────────────────────────────────────────────────────────┤
-│ 3. EN CONTRA DE LA INMEDIATEZ VACÍA                                    │
-│    Construir cosas sólidas toma tiempo. No tomo atajos chapuceros ni   │
-│    parches que oculten fallos de diseño subyacentes.                   │
-└────────────────────────────────────────────────────────────────────────┘
-```
+* **Fundamentos antes que modas:** Los frameworks vienen y van. Saber diseñar con límites limpios, entender cómo funciona el navegador por dentro y apoyarse en buenos patrones ahorra mucho más tiempo que aprender el enésimo tutorial de turno.
+* **La IA como copiloto, el humano como arquitecto:** La IA aporta una velocidad brutal creando código, pero el diseño, las decisiones arquitectónicas y los criterios de aceptación siguen siendo responsabilidad nuestra.
+* **Sin atajos chapuceros:** Si algo cojea en el diseño o en los tipos, prefiero arreglar la raíz antes que meter un parche que nos explote a todos la semana que viene.
 
 ---
 
@@ -115,11 +84,21 @@ Una muestra de lo que construyo cuando se juntan las ganas de investigar, automa
 <p align="left">
   <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
+</p>
+
+#### Infraestructura, Homelab & IA Gateway
+<p align="left">
+  <img src="https://img.shields.io/badge/Intel_Arc_Pro_B70-0071C5?style=flat-square&logo=intel&logoColor=white" alt="Intel Arc Pro B70" />
+  <img src="https://img.shields.io/badge/Dokploy-000000?style=flat-square&logo=docker&logoColor=white" alt="Dokploy" />
+  <img src="https://img.shields.io/badge/LiteLLM-1E1E2E?style=flat-square" alt="LiteLLM" />
+  <img src="https://img.shields.io/badge/OpenRouter-6566F1?style=flat-square" alt="OpenRouter" />
+  <img src="https://img.shields.io/badge/Hermes_Agent-10B981?style=flat-square" alt="Hermes Agent" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
 #### IA Agéntica & Metodología
@@ -144,10 +123,10 @@ Una muestra de lo que construyo cuando se juntan las ganas de investigar, automa
 
 ---
 
-### 💬 Hablemos
+### 💬 ¿Hablamos?
 
-¿Quieres charlar sobre arquitecturas agénticas con barandillas, telemetría deportiva, proyectos maker o buenas prácticas de software?
+Si te apetece charlar sobre arquitecturas de software, desarrollo asistido por IA o cualquier proyecto:
 
-* 💼 Conéctate conmigo en [LinkedIn: Ángel Auñón](https://www.linkedin.com/in/angelaunon/)
-* 🌐 Visita mi blog y web: [victoraunon.com](https://victoraunon.com)
-* 📬 Escríbeme a: [hola@victoraunon.com](mailto:hola@victoraunon.com)
+* 💼 Conéctate en [LinkedIn: Ángel Auñón](https://www.linkedin.com/in/angelaunon/)
+* 🌐 Pásate por mi web: [victoraunon.com](https://victoraunon.com)
+* 📬 Envíame un correo a: [hola@victoraunon.com](mailto:hola@victoraunon.com)
