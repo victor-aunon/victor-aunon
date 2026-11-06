@@ -1,6 +1,12 @@
-# ¡Hola, soy Víctor Auñón (Ángel)! 👋
+<div align="right">
+  <strong>🇪🇸 Español</strong> &nbsp;|&nbsp; <a href="./README.en.md">🇬🇧 English</a>
+</div>
 
-<p align="left">
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Víctor Auñón" />
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/angelaunon/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://victoraunon.com"><img src="https://img.shields.io/badge/Web-victoraunon.com-111111?style=flat-square&logo=safari&logoColor=white" alt="Website" /></a>
   <a href="mailto:hola@victoraunon.com"><img src="https://img.shields.io/badge/Email-hola%40victoraunon.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -61,35 +67,16 @@ Una selección de proyectos personales y experimentos de laboratorio:
 
 ### 🧰 Caja de Herramientas
 
-#### Lenguajes de Programación
 <p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,py,html,css,nextjs,react,tailwind,vite,nodejs,nestjs,postgres,docker,redis,vscode,neovim,git&theme=dark" alt="Tecnologías principales" />
+  </a>
 </p>
 
-#### Frontend & Mobile
-<p align="left">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Expo%20%2F%20React%20Native-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-</p>
+<details>
+<summary><b>🛠️ Ver desglose detallado de herramientas y servicios</b></summary>
 
-#### Backend, Datos & Cloud
-<p align="left">
-  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
-</p>
+<br />
 
 #### Infraestructura, Homelab & IA Gateway
 <p align="left">
@@ -99,6 +86,8 @@ Una selección de proyectos personales y experimentos de laboratorio:
   <img src="https://img.shields.io/badge/OpenRouter-6566F1?style=flat-square" alt="OpenRouter" />
   <img src="https://img.shields.io/badge/Hermes_Agent-10B981?style=flat-square" alt="Hermes Agent" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector" />
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
 </p>
 
 #### IA Agéntica & Metodología
@@ -117,8 +106,23 @@ Una selección de proyectos personales y experimentos de laboratorio:
   <img src="https://img.shields.io/badge/Orca-0EA5E9?style=flat-square" alt="Orca" />
   <img src="https://img.shields.io/badge/Zellij%20%2F%20Tmux-FF5F00?style=flat-square" alt="Zellij / Tmux" />
   <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white" alt="Turborepo" />
+  <img src="https://img.shields.io/badge/Fish%20Shell-4E8088?style=flat-square&logo=gnubash&logoColor=white" alt="Fish" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+</p>
+
+</details>
+
+---
+
+### 📊 Actividad en GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=victor-aunon&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=victor-aunon&layout=compact&theme=catppuccin_mocha&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="150" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=victor-aunon&theme=catppuccin_mocha&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF" height="150" alt="Streak Stats" />
 </p>
 
 ---
